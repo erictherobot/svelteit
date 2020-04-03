@@ -1,0 +1,72 @@
+{
+  "name": "@erictherobot/svelteit",
+  "version": "v1.0.0-alpha.1",
+  "description": "Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects",
+  "keywords": [
+    "ui",
+    "ux",
+    "components",
+    "svelte",
+    "framework",
+    "css",
+    "sapper",
+    "svelteit",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:erictherobot/svelteit.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Eric David Smith",
+    "email": "eric@colorfuldots.com",
+    "url": "https://ericdavidsmith.com"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "browser": {
+    "fs": false
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -cw",
+    "prepublishOnly": "npm run build",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@rollup/plugin-commonjs": "^11.0.0",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "@size-limit/preset-app": "^4.4.0",
+    "mdn-browser-compat-data": "0.0.85",
+    "node-sass": "^4.13.1",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.1.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-css-porter": "^1.0.2",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-scss": "^2.1.0",
+    "rollup-plugin-svelte": "^5.1.1",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-uglify": "^6.0.4",
+    "size-limit": "^1.3.7",
+    "svelte": "^3.20.1",
+    "svelte-css-vars": "^0.0.1",
+    "svelte-preprocess": "^3.6.0"
+  },
+  "size-limit": [
+    {
+      "path": "dist/index.js",
+      "ignore": [
+        "fs"
+      ]
+    }
+  ],
+  "svelte": "src/index.js"
+}

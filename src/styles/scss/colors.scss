@@ -1,0 +1,32 @@
+// THEME 1
+$primary: #9100ff;
+$secondary: desaturate($primary, 85);
+$success: adjust_hue(desaturate($primary, 45), 200);
+$danger: adjust_hue($primary, 60);
+$warning: adjust_hue($primary, 125);
+$info: adjust_hue($primary, 275);
+$dark: darken($primary, 45);
+$light: lighten($primary, 45);
+$white: #ffffff;
+$code: #f0f0f0;
+
+// THEME 2
+// $primary: #0051ff;
+// $secondary: #1e4b77;
+// $success: #63bb78;
+// $danger: #e498a0;
+// $warning: #ffdd77;
+// $info: #87ebfa;
+// $dark: #343a40;
+// $light: #e9ecef;
+// $white: #ffffff;
+// $code: #f0f0f0;
+
+// Pass background color
+@function set-readable-text-color($color) {
+  @if (lightness($color) > 55) {
+    @return black;
+  } @else {
+    @return white;
+  }
+}

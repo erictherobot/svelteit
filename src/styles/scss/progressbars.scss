@@ -1,0 +1,97 @@
+@import './theme.scss';
+
+.progress-container {
+  background: $white;
+}
+.svelteit-center {
+  text-align: center;
+}
+.svelteit-container:after,
+.svelteit-container:before {
+  content: '';
+  display: table;
+  clear: both;
+}
+.svelteit-container {
+  padding: 0.01em 16px;
+}
+.primary {
+  background-color: $primary;
+  color: set-readable-text-color($primary);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($primary, 10);
+  }
+}
+
+.secondary {
+  background-color: $secondary;
+  color: set-readable-text-color($secondary);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($secondary, 10);
+  }
+}
+
+.success {
+  background-color: $success;
+  color: set-readable-text-color($success);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($success, 10);
+  }
+}
+
+.danger {
+  background-color: $danger;
+  color: set-readable-text-color($danger);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($danger, 10);
+  }
+}
+
+.warning {
+  background-color: $warning;
+  color: set-readable-text-color($warning);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($warning, 10);
+  }
+}
+
+.info {
+  background-color: $info;
+  color: set-readable-text-color($info);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($info, 10);
+  }
+}
+
+.light {
+  background-color: $light;
+  color: set-readable-text-color($light);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($light, 10);
+  }
+}
+
+.dark {
+  background-color: $dark;
+  color: set-readable-text-color($dark);
+  padding: 5px;
+  &.bordered {
+    border: 1px solid darken($dark, 10);
+  }
+}
+.small {
+  padding: 0px;
+}
+.medium {
+  padding: 5px;
+}
+.large {
+  padding: 10px;
+}

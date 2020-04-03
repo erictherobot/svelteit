@@ -1,0 +1,45 @@
+:root {
+  --font-family: inherit;
+  --font-family-mono: inherit;
+  --font-size: 1rem;
+  --line-height: 1.7rem;
+
+  --root-html-font-size: 16px;
+
+  --box-padding: 0.625rem;
+
+  /* 
+--box-padding-top: 0.625rem; 
+  --box-padding-right: 0.625rem; 
+  --box-padding-bottom: 0.625rem; 
+  --box-padding-left: 0.625rem; 
+*/
+  --box-margin: 0.625rem;
+  --box-margin-top: 0.625rem;
+  --box-margin-right: 0.625rem;
+  --box-margin-bottom: 0.625rem;
+  --box-margin-left: 0.625rem;
+
+  --primary: #9100ff;
+  --secondary: #868e96;
+  --success: #28a745;
+  --danger: #dc3545;
+  --warning: #ffc107;
+  --info: #17a2b8;
+  --dark: #343a40;
+  --light: #e9ecef;
+  --white: #ffffff;
+
+  --border-width: 1px;
+  --border-style: solid;
+  --border-color: var(--light);
+  --border-radius: 0.25rem;
+
+  --font-size-small: 0.8em;
+  --font-size-medium: 1em;
+  --font-size-large: 1.4em;
+}
+
+html {
+  font-size: var(--root-html-font-size);
+}
