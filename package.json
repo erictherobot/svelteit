@@ -1,6 +1,6 @@
 {
-  "name": "@erictherobot/svelteit",
-  "version": "v1.0.0-alpha.1",
+  "name": "@colorfuldots/svelteit",
+  "version": "1.0.0-alpha.2",
   "description": "Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects",
   "keywords": [
     "ui",
@@ -15,14 +15,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:erictherobot/svelteit.git"
+    "url": "git+ssh://git@github.com/erictherobot/svelteit.git"
   },
   "license": "MIT",
-  "author": {
-    "name": "Eric David Smith",
-    "email": "eric@colorfuldots.com",
-    "url": "https://ericdavidsmith.com"
-  },
+  "author": "Eric David Smith <eric@colorfuldots.com> (https://ericdavidsmith.com)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "browser": {
@@ -68,5 +64,9 @@
       ]
     }
   ],
-  "svelte": "src/index.js"
+  "svelte": "src/index.js",
+  "bugs": {
+    "url": "https://github.com/erictherobot/svelteit/issues"
+  },
+  "homepage": "https://github.com/erictherobot/svelteit#readme"
 }

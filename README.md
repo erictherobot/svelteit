@@ -2,7 +2,7 @@
 
 <a align="center" href="https://docs.svelteit.dev"><img width="100%" src="Svelteit-github@3x.png"></a>
 
-Svelte<em>it</em> is a minimalistic UI/UX component framework for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
+Svelteit is a minimalistic UI/UX component framework for [Svelte](https://svelte.dev) and [Sapper](https://sapper.svelte.dev) projects.
 
 ### Why?
 
@@ -13,9 +13,9 @@ Yes, there are many component frameworks out there today, but we wanted our own.
 Add Svelteit to your project by running:
 
 ```bash
-npm install -D @erictherobot/svelteit
+npm install -D @colorfuldots/svelteit
 # or
-yarn add @erictherobot/svelteit --dev
+yarn add @colorfuldots/svelteit --dev
 ```
 
 ### Documentation
