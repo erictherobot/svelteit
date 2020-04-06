@@ -24,7 +24,9 @@
     <label>{label}</label>
     <br />
   {/if}
-  <select {type} {multiple} class:primary>
-    <slot />
+  <select {type} {multiple} {...$$props}>
+    <slot>
+      <em>Missing options</em>
+    </slot>
   </select>
 </div>

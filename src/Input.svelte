@@ -37,19 +37,16 @@
 {#if type === 'number'}
   {#if label}
     <label>{label}</label>
-    <br />
   {/if}
   <input type="number" {placeholder} bind:value {min} {max} />
 {:else if type === 'text'}
   {#if label}
     <label>{label}</label>
-    <br />
   {/if}
   <input type="text" {placeholder} bind:value />
 {:else if type === 'file'}
   {#if label}
     <label>{label}</label>
-    <br />
   {/if}
   <input type="file" bind:value />
 {:else if type === 'radio'}

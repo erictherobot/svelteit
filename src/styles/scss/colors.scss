@@ -1,4 +1,17 @@
 // THEME 1
+
+// $init: #f4f4f4; // default
+// $primary: purple;
+// $secondary: gray;
+// $success: green;
+// $danger: red;
+// $warning: orange;
+// $info: teal;
+// $light: lightgray;
+// $dark: black;
+// $white: white;
+
+$init: #f4f4f4; // default
 $primary: #9100ff;
 $secondary: desaturate($primary, 85);
 $success: adjust_hue(desaturate($primary, 45), 200);
@@ -11,6 +24,7 @@ $white: #ffffff;
 $code: #f0f0f0;
 
 // THEME 2
+// $init: #f4f4f4; // default
 // $primary: #0051ff;
 // $secondary: #1e4b77;
 // $success: #63bb78;
@@ -24,7 +38,7 @@ $code: #f0f0f0;
 
 // Pass background color
 @function set-readable-text-color($color) {
-  @if (lightness($color) > 55) {
+  @if (lightness($color) > 50) {
     @return black;
   } @else {
     @return white;

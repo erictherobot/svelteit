@@ -1,28 +1,93 @@
-export { default as Alert } from './Alert.svelte'
-export { default as Button } from './Button.svelte'
-export { default as Card } from './Card.svelte'
-export { default as Table } from './Table.svelte'
-export { default as Container } from './Container.svelte'
-export { default as Row } from './Row.svelte'
-export { default as Column } from './Column.svelte'
-export { default as CollapsiblePanel } from './CollapsiblePanel.svelte'
-export { default as Input } from './Input.svelte'
-export { default as Textarea } from './Textarea.svelte'
-export { default as Select } from './Select.svelte'
-export { default as List } from './List.svelte'
-export { default as ProgressBar } from './ProgressBar.svelte'
-export { default as Accordions } from './Accordions.svelte'
-export { default as Accordion } from './Accordion.svelte'
-export { default as Modal } from './Modal.svelte'
-export { default as Navigation } from './Navigation.svelte'
-export { default as Tabs } from './Tabs.svelte'
-export { default as TabList } from './TabList.svelte'
-export { default as TabPanel } from './TabPanel.svelte'
-export { default as Tab } from './Tab.svelte'
-export { default as Breadcrumbs } from './Breadcrumbs.svelte'
-export { default as Pagination } from './Pagination.svelte'
-export { default as Image } from './Image.svelte'
-export { default as Typography } from './Typography.svelte'
-export { default as Switch } from './Switch.svelte'
-export { default as Tooltip } from './Tooltip.svelte'
-export { default as Badge } from './Badge.svelte'
+import Alert from './Alert.svelte'
+import Button from './Button.svelte'
+import ButtonGroup from './ButtonGroup.svelte'
+import Card from './Card.svelte'
+import Table from './Table.svelte'
+import Container from './Container.svelte'
+import Row from './Row.svelte'
+import Column from './Column.svelte'
+import CollapsiblePanel from './CollapsiblePanel.svelte'
+import Input from './Input.svelte'
+import Textarea from './Textarea.svelte'
+import Select from './Select.svelte'
+import List from './List.svelte'
+import ProgressBar from './ProgressBar.svelte'
+import Accordions from './Accordions.svelte'
+import Accordion from './Accordion.svelte'
+import Modal from './Modal.svelte'
+import Navigation from './Navigation.svelte'
+import Tabs from './Tabs.svelte'
+import TabList from './TabList.svelte'
+import TabPanel from './TabPanel.svelte'
+import Tab from './Tab.svelte'
+import Breadcrumbs from './Breadcrumbs.svelte'
+import Pagination from './Pagination.svelte'
+import Image from './Image.svelte'
+import Typography from './Typography.svelte'
+import Switch from './Switch.svelte'
+import Tooltip from './Tooltip.svelte'
+import Badge from './Badge.svelte'
+
+export {
+  Accordion,
+  Accordions,
+  Alert,
+  Badge,
+  Breadcrumbs,
+  Button,
+  ButtonGroup,
+  Card,
+  CollapsiblePanel,
+  Column,
+  Container,
+  Image,
+  Input,
+  List,
+  Modal,
+  Navigation,
+  Pagination,
+  ProgressBar,
+  Row,
+  Select,
+  Switch,
+  Tab,
+  Table,
+  TabList,
+  TabPanel,
+  Tabs,
+  Textarea,
+  Tooltip,
+  Typography,
+}
+
+export const Svelteit = {
+  Accordion,
+  Accordions,
+  Alert,
+  Badge,
+  Breadcrumbs,
+  Button,
+  ButtonGroup,
+  Card,
+  CollapsiblePanel,
+  Column,
+  Container,
+  Image,
+  Input,
+  List,
+  Modal,
+  Navigation,
+  Pagination,
+  ProgressBar,
+  Row,
+  Select,
+  Switch,
+  Tab,
+  Table,
+  TabList,
+  TabPanel,
+  Tabs,
+  Textarea,
+  Tooltip,
+  Typography,
+}

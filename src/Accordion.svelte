@@ -50,8 +50,18 @@
       color: set-readable-text-color($primary);
 
       &:hover {
-        background-color: lighten($primary, 5);
-        color: set-readable-text-color(lighten($primary, 5));
+        background-color: rgba($primary, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $primary, 0px 10px 20px -10px $primary;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($primary, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $primary, 0px 10px 20px -10px $primary;
+        background-color: rgba($primary, 0.8);
       }
     }
 
@@ -61,8 +71,18 @@
       color: set-readable-text-color($secondary);
 
       &:hover {
-        background-color: lighten($secondary, 5);
-        color: set-readable-text-color(lighten($secondary, 5));
+        background-color: rgba($secondary, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $secondary, 0px 10px 20px -10px $secondary;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($secondary, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $secondary, 0px 10px 20px -10px $secondary;
+        background-color: rgba($secondary, 0.8);
       }
     }
 
@@ -72,8 +92,18 @@
       color: set-readable-text-color($success);
 
       &:hover {
-        background-color: lighten($success, 5);
-        color: set-readable-text-color(lighten($success, 5));
+        background-color: rgba($success, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $success, 0px 10px 20px -10px $success;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($success, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $success, 0px 10px 20px -10px $success;
+        background-color: rgba($success, 0.8);
       }
     }
 
@@ -83,8 +113,18 @@
       color: set-readable-text-color($danger);
 
       &:hover {
-        background-color: lighten($danger, 5);
-        color: set-readable-text-color(lighten($danger, 5));
+        background-color: rgba($danger, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $danger, 0px 10px 20px -10px $danger;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($danger, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $danger, 0px 10px 20px -10px $danger;
+        background-color: rgba($danger, 0.8);
       }
     }
 
@@ -94,8 +134,18 @@
       color: set-readable-text-color($warning);
 
       &:hover {
-        background-color: lighten($warning, 5);
-        color: set-readable-text-color(lighten($warning, 5));
+        background-color: rgba($warning, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $warning, 0px 10px 20px -10px $warning;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($warning, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $warning, 0px 10px 20px -10px $warning;
+        background-color: rgba($warning, 0.8);
       }
     }
 
@@ -105,8 +155,18 @@
       color: set-readable-text-color($info);
 
       &:hover {
-        background-color: lighten($info, 5);
-        color: set-readable-text-color(lighten($info, 5));
+        background-color: rgba($info, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $info, 0px 10px 20px -10px $info;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($info, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $info, 0px 10px 20px -10px $info;
+        background-color: rgba($info, 0.8);
       }
     }
 
@@ -116,8 +176,18 @@
       color: set-readable-text-color($light);
 
       &:hover {
-        background-color: lighten($light, 5);
-        color: set-readable-text-color(lighten($light, 5));
+        background-color: rgba($light, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $light, 0px 10px 20px -10px $light;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($light, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $light, 0px 10px 20px -10px $light;
+        background-color: rgba($light, 0.8);
       }
     }
 
@@ -127,8 +197,18 @@
       color: set-readable-text-color($dark);
 
       &:hover {
-        background-color: lighten($dark, 5);
-        color: set-readable-text-color(lighten($dark, 5));
+        background-color: rgba($dark, 0.8);
+      }
+      &:active {
+        box-shadow: inset 0 0 0 $dark, 0px 10px 20px -10px $dark;
+        transform: translateY(1px);
+        outline: none;
+        background-color: rgba($dark, 0.8);
+      }
+      &:focus {
+        outline: none;
+        box-shadow: inset 0 0 0 $dark, 0px 10px 20px -10px $dark;
+        background-color: rgba($dark, 0.8);
       }
     }
   }

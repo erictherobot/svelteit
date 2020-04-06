@@ -10,6 +10,7 @@
   export let linkRoute = undefined
   export let hero = false
   export let thumbnail = false
+  export let avatar = false
   export let primary = false
   export let secondary = false
   export let success = false
@@ -65,6 +66,14 @@
     max-width: 100%;
     height: auto;
   }
+  .img-circle {
+    min-width: 25px;
+    min-height: 25px;
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    vertical-align: middle;
+  }
 </style>
 
 {#if hero}
@@ -96,6 +105,8 @@
       {/if}
     </div>
   </div>
+{:else if avatar}
+  <img src={img} alt={title} class="img-circle" {width} {height} />
 {:else if thumbnail}
   {#if linkRoute}
     <a href={linkRoute}>

@@ -1,6 +1,6 @@
 {
   "name": "@colorfuldots/svelteit",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.6",
   "description": "Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects",
   "keywords": [
     "ui",
@@ -31,7 +31,9 @@
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "dependencies": {},
+  "dependencies": {
+    "svelte-css-vars": "0.0.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@rollup/plugin-commonjs": "^11.0.0",
@@ -44,7 +46,6 @@
     "rollup-plugin-svelte": "^5.2.0",
     "size-limit": "^4.4.5",
     "svelte": "^3.20.1",
-    "svelte-css-vars": "0.0.1",
     "svelte-preprocess": "^3.7.1"
   },
   "size-limit": [
