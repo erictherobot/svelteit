@@ -1,6 +1,6 @@
 {
   "name": "@colorfuldots/svelteit",
-  "version": "1.0.0-alpha.6",
+  "version": "1.0.0-alpha.7",
   "description": "Svelteit is a minimalistic UI/UX component framework for Svelte and Sapper projects",
   "keywords": [
     "ui",
